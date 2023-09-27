@@ -1,0 +1,9 @@
+higher onclick="roll()">higher
+
+
+<button onclick="roll()"> lower
+
+        </button>
+        <p class="Lower button"></p>
+        <div class="lower button"></div>
+    </div>

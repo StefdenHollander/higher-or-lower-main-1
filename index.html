@@ -1,47 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hoger Of Lager</title>
-    <link rel="stylesheet" href="HOL.css">
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="mainjs/main.js"></script>
 </head>
-<body>
-<div style="text-align: center;">
 
-    <img width="150" src="img/dice.png"alt="" height="150">
-    
+<body>
+    <div style="text-align: center;">
+
+        <img width="150" src="img/dice.png" alt="" height="150">
+
     </div>
     <div style="text-align: center;">
 
-        <img width="150" src="img/dice-2.png"alt="" height="150">
-        
-        </div>
-        <div style="text-align: center;">
+        <img width="150" src="img/dice-2.png" alt="" height="150">
 
-            <button onclick="roll()"> <img src="img/roll-button.png" alt="buttonpng" width="250" height="75"/>
-            </button>
-            <p id="something"></p>
-        </div>
+    </div>
+    <div style="text-align: center;">
 
-            <div> 
+        <button onclick="rollDice()"> <img src="img/roll-button.png" alt="buttonpng" width="250" height="75" />
+        </button>
+        <p class="something"></p>
+    </div>
 
-        <button onclick="roll()"> Lower 
-            
-            </button> 
-                <p id="Lower"></p>
-                
-            </div>
+    <div class="higher-en-lower-button">
 
-            <div> 
+        <button class="lower-button">lower</button>
+        <button class="higher-button">higher</button>
+    </div>
 
-                <button onclick="roll()">Higher
-                    </button> 
-                        <p id="Higher"></p>
-                        
-                    </div>
-    
 </body>
 
-</html> 
+</html>
