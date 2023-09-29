@@ -20,4 +20,6 @@ function rollDice() {
     myNumber = getRandomNumber(11);
     console.log('random getal is ' + myNumber);
 }
-document.querySelectorClass = ("something").innerHTML = 'je hebt verloren';
+
+Alert(getRandomNumber)
+//document.querySelectorClass = ("something").innerHTML = 'je hebt verloren';
