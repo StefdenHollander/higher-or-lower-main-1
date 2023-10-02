@@ -30,3 +30,17 @@ img {
 .higher-en-lower-button {
   text-align: center;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: beige;
+  margin: 10px;
+  height: 10vw;
+}
+
+.container > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
